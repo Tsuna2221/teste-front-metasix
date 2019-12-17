@@ -1,0 +1,18 @@
+th {
+  background-color: #0168B4; }
+
+table {
+  border-collapse: collapse; }
+
+.main-table {
+  width: 100%; }
+
+.table-head {
+  height: 34px; }
+  .table-head.question {
+    height: 42px; }
+
+.answer-box {
+  display: none; }
+  .answer-box.active {
+    display: block; }

@@ -1,0 +1,2 @@
+get https://poc.metasix.solutions/parse/classes/FAQ
+X-Parse-Application-Id: br.com.metasix.poc

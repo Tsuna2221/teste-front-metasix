@@ -1,0 +1,8 @@
+.main-header {
+  height: 90px;
+  padding: 0 40px;
+  background-color: #0168B4; }
+  .main-header .main-logo {
+    height: 50%; }
+  .main-header .header-nav-item a {
+    text-decoration: none; }

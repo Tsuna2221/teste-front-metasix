@@ -1,0 +1,10 @@
+.selection-item {
+  transition: 0.12s ease;
+  padding: 0 15px;
+  min-width: 60px;
+  height: 35px;
+  background-color: #fff;
+  text-transform: uppercase;
+  text-decoration: none; }
+  .selection-item.active {
+    background-color: #0168B4; }
