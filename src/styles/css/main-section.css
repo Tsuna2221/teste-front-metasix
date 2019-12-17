@@ -8,3 +8,10 @@
   text-decoration: none; }
   .selection-item.active {
     background-color: #0168B4; }
+
+.faq-search .faq-input {
+  width: 280px;
+  height: 35px;
+  border: 1px solid #e7e7e7; }
+  .faq-search .faq-input::placeholder {
+    color: #707070; }

@@ -3,7 +3,6 @@
 .main-header{
     height: 90px;
     padding: 0 40px;
-    background-color: $blue;
 
     .main-logo{
         height: 50%;
@@ -11,5 +10,21 @@
 
     .header-nav-item{
         a{text-decoration: none;}
+    }
+}
+
+.dropdown-menu{
+    transition: 0.15s ease;
+    height: 0px;
+    
+    &.active{
+        height: 330px;
+    }
+
+    .dropdown-item{
+        height: 50px;
+        text-decoration: none;
+        border-top: 1px solid #fff; 
+        border-bottom: 1px solid #fff; 
     }
 }

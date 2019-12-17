@@ -7,7 +7,7 @@ const SSelector = ({location: { pathname }}) => {
     let highlightSelected = (id) => pathname.includes(id)
 
     return (
-        <div className="d-flex mar-v-40">
+        <div className="sec-selector d-flex mar-v-40">
             <SelectionItem selected={highlightSelected} label="Home" id="home"/>
             <SelectionItem selected={highlightSelected} label="FAQ" id="faq"/>
             <SelectionItem selected={highlightSelected} label="Locais" id="locais"/>

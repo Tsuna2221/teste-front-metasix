@@ -4,8 +4,18 @@ ul li {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #fafafa; }
+  background-color: #fafafa;
+  margin: 0; }
 
 h1 {
   font-size: 29px;
   margin: 0; }
+
+.head-menu-btn, .dropdown-menu {
+  display: none !important; }
+
+.bg-blue {
+  background-color: #0168B4; }
+
+.bg-red {
+  background-color: #DC3545; }
