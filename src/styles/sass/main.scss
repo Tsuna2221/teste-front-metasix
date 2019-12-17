@@ -14,9 +14,10 @@ body{
 h1{
     font-size: 29px;
     margin: 0;
+    color: $black;
 }
 
-.head-menu-btn, .dropdown-menu{display: none !important;}
+.head-menu-btn, .dropdown-menu, .mobile-btn{display: none !important;}
 
 //BG Colors
 

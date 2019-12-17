@@ -18,11 +18,14 @@ class App extends Component {
                 <div className='App'>
                     <Header/>
                     <section className="mar-h-40">
-                        <Route path="/" component={SectionSelector} />
-                        <Route path="/home" render={() => <h1>Home</h1>} />
+                        <Route path="/" component={SectionSelector}/>
+                        <Route exact path="/">
+                            <FAQSection questions={questions}/>
+                        </Route>
                         <Route path="/faq">
                             <FAQSection questions={questions}/>
                         </Route>
+                        <Route path="/home" render={() => <h1>Home</h1>} />
                         <Route path="/locais" render={() => <h1>Locais</h1>} />
                         <Route path="/categorias" render={() => <h1>Categorias</h1>} />
                     </section>

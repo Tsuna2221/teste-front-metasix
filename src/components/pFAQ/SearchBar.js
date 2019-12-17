@@ -12,10 +12,10 @@ const SearchBar = ({applySearch}) => {
                 onChange={({target: { value }}) => setInput(value)}
                 value={input} 
                 placeholder="Busque por termo..." 
-                className="faq-input br-low no-outline mar-r-12 pad-l-12" 
+                className="faq-input c-black br-low no-outline mar-r-12 pad-l-12" 
                 type="text"
             />
-            <Button onClick={() => applySearch(input)} color="blue" icon="search" label="BUSCAR"/>
+            <Button className="search-btn" onClick={() => applySearch(input)} color="blue" icon="search" label="BUSCAR"/>
         </div>
     )
 }

@@ -10,9 +10,8 @@
   transition: 0.15s ease;
   height: 0px; }
   .dropdown-menu.active {
-    height: 330px; }
+    height: 305px; }
   .dropdown-menu .dropdown-item {
     height: 50px;
     text-decoration: none;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff; }
+    border-top: 1px solid #fff; }

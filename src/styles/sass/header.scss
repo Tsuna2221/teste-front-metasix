@@ -18,13 +18,12 @@
     height: 0px;
     
     &.active{
-        height: 330px;
+        height: 305px;
     }
 
     .dropdown-item{
         height: 50px;
         text-decoration: none;
         border-top: 1px solid #fff; 
-        border-bottom: 1px solid #fff; 
     }
 }

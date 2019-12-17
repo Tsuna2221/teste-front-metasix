@@ -44,10 +44,10 @@ class FAQSection extends Component {
                                                         <Fragment key={objectId}>
                                                             <QuestionCell toggle={this.toggleQuestion} question={{position, question, objectId}}/>
                                                             <tr className={`answer-box ${currentQuestion.includes(objectId) ? "active" : "inactive"}`} id={`question-${objectId}`}>
-                                                                <td className="answer-box-text lh-long">{answer}</td>
+                                                                <td className="answer-box-text lh-long c-black">{answer}</td>
                                                                 <td className="d-flex a-evenly">
-                                                                    <Button onClick={() => null} color="blue" icon="edit" label="EDITAR"/>
-                                                                    <Button onClick={() => null} color="red" icon="trash" label="EXCLUIR"/>
+                                                                    <Button className="mobile-btn" onClick={() => null} color="blue" icon="edit" label="EDITAR"/>
+                                                                    <Button className="mobile-btn" onClick={() => null} color="red" icon="trash" label="EXCLUIR"/>
                                                                 </td>
                                                             </tr>
                                                         </Fragment>
